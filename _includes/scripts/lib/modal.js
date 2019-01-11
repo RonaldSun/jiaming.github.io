@@ -55,8 +55,7 @@
       init();
       return {
         show: show,
-        hide: hide,
-        $el: $root
+        hide: hide
       };
     }
     $.fn.modal = modal;
