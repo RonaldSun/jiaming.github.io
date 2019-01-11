@@ -27,7 +27,7 @@ LSD（Large-Scale Direct Monocular SLAM）的优化中没有关键点的深度�
 - Static Stereo: 由固定的多目相机形成的双目
 - Temporal Stereo: 由不同观测时刻形成的双目
 
-![stereo lsd](../img/stereo_lsd_flow.PNG)
+![stereo lsd](/img/stereo_lsd_flow.PNG)
 
 双目相机的加入其实就是在LSD深度滤波时加入了双目，利用双目相机进行深度滤波能得到更好的深度估计值。另外，stereo-LSD中还混合使用了间接法中的几何残差进行联合优化。
 
@@ -47,7 +47,7 @@ LSD（Large-Scale Direct Monocular SLAM）的优化中没有关键点的深度�
 
 与stereo-LSD相同的是，stereo-DSO中也同时使用static stereo和temporal stereo。由于双目相机的加入，初始化时不用采用随机深度，第一帧图像即可得到深度估计，加快了初始化的速度，但是对后续的tack部分没有做修改。
 
-![stereo lsd](../img/stereo_dso_flow.PNG)
+![stereo lsd](/img/stereo_dso_flow.PNG)
 
 stereo-DSO在滑动窗口的优化方程中，加入了static stereo的误差项，并引入了一个权重$\lambda$，由上图可见，static stereo的残差数量明显比temporal stereo的少，论文中的实验将$\lambda$取为2。
 

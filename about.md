@@ -18,6 +18,7 @@ titles:
 key: page-about
 ---
 
+
 ## 一个幼稚的程序员
 
 :mag_right:爱好:  SLAM, 自动驾驶
@@ -26,7 +27,5 @@ key: page-about
 
 :e-mail:邮箱: 297131009@qq.com
 
----
-
-:beers::beers::beers:
+## :beers::beers::beers:
 
