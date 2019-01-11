@@ -1,5 +1,6 @@
 ---
 layout: article
+title： 关于
 titles:
   en      : &EN       About
   en-US   : *EN
@@ -17,8 +18,6 @@ titles:
   ko-KR   : *KO
 key: page-about
 ---
-
-关于
 
 ## 一个幼稚的程序员
 
