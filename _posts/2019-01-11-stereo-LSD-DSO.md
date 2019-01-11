@@ -1,13 +1,18 @@
 ---
+layout: article
 title: 双目直接法SLAM：stereo-LSD & stereo-DSO
 tags: SLAM 论文
 key: slam1
 category: 论文
 date: 2019-01-11 10:56:00
-modify_date: 2019-01-11 10:56:00
+modify_date: 2019-01-11 13:10:00
 ---
 
 为了搞清楚双目与单目的主要区别，主要分析双目部分引入的变化。
+
+记录stereo-LSD和stereo-DSO这两篇论文的一些改进方式。
+
+<!--more-->
 
 ## stereo-LSD[^stereoLSD]
 
