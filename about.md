@@ -18,9 +18,7 @@ titles:
 key: page-about
 ---
 
-
-
-
+关于
 
 ## 一个幼稚的程序员
 
